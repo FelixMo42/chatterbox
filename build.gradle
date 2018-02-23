@@ -29,7 +29,7 @@ jfxmobile {
     }
     android {
         manifest = 'src/android/AndroidManifest.xml'
-        jfxmobile.android.androidSdk = '/Users/h205p4/Desktop/android-sdk-macosx'
+        jfxmobile.android.androidSdk = '/Users/h205p4/Library/Android/sdk'
     }
     ios {
         infoPList = file('src/ios/Default-Info.plist')

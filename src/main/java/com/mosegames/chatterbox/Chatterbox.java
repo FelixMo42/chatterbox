@@ -10,8 +10,8 @@ public class Chatterbox extends Application implements Runnable {
     public static Stage stage;
     
     @Override public void start(Stage stage) throws Exception {
-        Scene scene = new Scene( FXMLLoader.load(getClass().getResource("/chatterbox/UI.fxml")) );
-        scene.getStylesheets().add(getClass().getResource("/chatterbox/style.css").toExternalForm());
+        Scene scene = new Scene( FXMLLoader.load(getClass().getResource("/com/mosegames/chatterbox/UI.fxml")) );
+        scene.getStylesheets().add(getClass().getResource("/com/mosegames/chatterbox/style.css").toExternalForm());
         Chatterbox.stage = stage;
         stage.setOnCloseRequest((WindowEvent t) -> {
             Main.close();
